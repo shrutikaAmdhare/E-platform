@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>SkillBoost</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Our E-Learning Platform</h2>
+            <p>Learn new skills and advance your career with our online courses.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>Courses</h2>
+            <div class="courses-container">
+                <div class="course">
+                    <img src="course1.jpg" alt="Course 1">
+                    <h3>Web Development</h3>
+                    <p>Master the essentials of web development, from HTML and CSS to JavaScript and responsive design. Build and deploy dynamic websites with hands-on projects and expert guidance.</p>
+                </div>
+                <div class="course">
+                    <img src="course2.jpg" alt="Course 2">
+                    <h3>Video Editing</h3>
+                    <p>Learn the art of video editing using industry-standard tools. Enhance your storytelling skills by creating, editing, and producing high-quality videos for various platforms.</p>
+                </div>
+                <!-- Add more courses as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>SkillBoost is dedicated to providing high-quality online education to learners worldwide. Our diverse range of courses, designed by industry experts, empowers individuals to achieve their personal and professional goals. Join our vibrant community and start learning today!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Learning Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
